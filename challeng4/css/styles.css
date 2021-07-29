@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+body, html {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+  
+  background-image: url("../img/unsplash-Ricardo\ Gomez\ Angel.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+
+.panel-container {
+  height: 50vh;
+  width: 50vh;
+  border: 3px solid #878787;;
+  border-radius: .5rem;
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+
+}
+
+
+legend {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 3rem;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(left, #87e2b0, #024d41, #6f2cc7);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
+p {
+  padding: 35px 20px 0;
+   line-height: 1.5rem;
+  color: #333333;
+  font-size: .8rem;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.251);
+  border: none;
+  padding: .2rem 1.5rem;
+  color: #333333;
+  cursor: pointer;
+  border-radius: .3rem;
+  opacity: 80%;
+ 
+}
+
+.btn {
+    padding: 0.7rem 1rem;
+    margin-top: 3rem;
+} 
