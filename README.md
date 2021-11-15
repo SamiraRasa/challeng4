@@ -1,2 +1,2 @@
 
-![App Screenshot](./CHALLENG.png)
+![App Screenshot](../CHALLENG.png)
